@@ -45,3 +45,10 @@
    left: 40%;
    transform: translate(-50%, -50%);
 }
+
+.__btn-container-drop {
+   position: absolute;
+   top: 65%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}

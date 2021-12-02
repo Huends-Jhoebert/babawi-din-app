@@ -5,6 +5,8 @@ const BTN4 = document.querySelector(".__btn-4");
 const BTN5 = document.querySelector(".__btn-5");
 const BTN6 = document.querySelector(".__btn-6");
 const BTN7 = document.querySelector(".__btn-7");
+const DROPBTN = document.querySelector(".__btn-drop");
+const MESSAGE = document.querySelector(".__message");
 
 BTN1.addEventListener("mouseover", () => {
    BTN1.style.display = "none";
@@ -39,4 +41,8 @@ BTN6.addEventListener("mouseover", () => {
 BTN7.addEventListener("mouseover", () => {
    BTN7.style.display = "none";
    BTN1.style.display = "inline";
+});
+
+DROPBTN.addEventListener("click", () => {
+   MESSAGE.textContent = "KAYA MO NIYAN! LABAN LANG";
 });
